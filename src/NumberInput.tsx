@@ -16,7 +16,9 @@ class NumberInput extends React.Component<any, any>{
     return (
       <div>
         <p>This is Pratyush</p>
+        <div>This is the test line</div>
         <p>Enter the {scale} value here to process</p>
+        <div>This is another test line</div>
         <input value={num}
           onChange={this.handleChange} />
       </div>

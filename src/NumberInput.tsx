@@ -15,6 +15,7 @@ class NumberInput extends React.Component<any, any>{
     const scale: string = this.props.scale;
     return (
       <div>
+        <div>This is Praveen writing this line</div>
         <p>This is Pratyush</p>
         <div>This is the test line</div>
         <p>Enter the {scale} value here to process</p>
